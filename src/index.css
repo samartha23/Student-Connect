@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.text-links a {
+  color: #3b82f6 !important;
+  text-decoration: underline;
+  font-weight: 500;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+::-webkit-scrollbar {
+  width: 0rem;
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-track:horizontal {
+  background-color: transparent;
+}
+
+.modal-open {
+  overflow: hidden;
+}
+
+.jodit-wysiwyg {
+  min-height: 300px !important;
+}
+
+input[type="file"] {
+  color: transparent;
+  cursor: pointer;
+}
+
+input[type="file"]::file-selector-button {
+  background-color: transparent;
+  color: #fff;
+  padding: 0px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
